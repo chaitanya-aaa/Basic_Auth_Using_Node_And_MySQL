@@ -131,6 +131,7 @@ git clone https://github.com/YOUR-USERNAME/Authentication_Dashboard.git
 ```
 ---
 Note: You need have MySQL Workbench installed in your local machine.
+[Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 ---
 
