@@ -118,7 +118,6 @@ ProjectAuth
 
 ---
 
-
 ### Fork the Repository
 
 Click the **Fork** button on the top right of this repository to create a copy in your GitHub account. (OR)
@@ -129,6 +128,125 @@ Then clone the repository:
 git clone https://github.com/YOUR-USERNAME/Authentication_Dashboard.git
 
 ```
+---
+
+## ⚙️ Project Setup
+
+Follow these steps to run the project locally.
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <repository-link>
+cd project-folder
+```
+
+---
+
+### 2️⃣ Initialize Node Project
+
+Create a `package.json` file.
+
+```bash
+npm init -y
+```
+
+---
+
+### 3️⃣ Install Required Node Modules
+
+Install the required dependencies:
+
+```bash
+npm install express mysql2 cors body-parser
+```
+
+Optional development tool:
+
+```bash
+npm install nodemon --save-dev
+```
+
+---
+
+### 4️⃣ Create Server File
+
+Create a file named **server.js**.
+
+Example basic server:
+
+```javascript
+const express = require('express');
+const mysql = require('mysql2');
+const cors = require('cors');
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+
+const db = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "your_password",
+  database: "your_database"
+});
+
+db.connect((err) => {
+  if (err) throw err;
+  console.log("Connected to MySQL database");
+});
+
+app.listen(3000, () => {
+  console.log("Server running on port 3000");
+});
+```
+
+---
+
+### 5️⃣ Run the Server
+
+Start the server using:
+
+```bash
+node server.js
+```
+
+or if using nodemon:
+
+```bash
+nodemon server.js
+```
+
+---
+
+### 6️⃣ Install MySQL Workbench
+
+Download MySQL Workbench from:  
+[Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+
+---
+
+### 7️⃣ Create Database
+
+Example SQL command:
+
+```sql
+CREATE DATABASE project_db;
+```
+
+---
+
+### 8️⃣ Install Node Modules (If Needed Again)
+
+If `node_modules` is missing:
+
+```bash
+npm install
+```
+
+This will install all dependencies listed in `package.json`.
+
+---
 ---
 Note: You need have MySQL Workbench installed in your local machine.
 [Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
