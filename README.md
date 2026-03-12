@@ -118,13 +118,7 @@ ProjectAuth
 
 ---
 
-## 📌 Conclusion
 
-This project demonstrates how to build a **basic authentication system using Node.js and MySQL**. It provides a practical understanding of how **frontend forms interact with backend APIs and databases**.
-
-The project serves as a **foundation for building more advanced authentication systems**, which can later include features such as **password hashing, session management, JWT authentication, and user dashboards**.
-
----
 ### Fork the Repository
 
 Click the **Fork** button on the top right of this repository to create a copy in your GitHub account.
@@ -135,6 +129,13 @@ Then clone the repository:
 git clone https://github.com/YOUR-USERNAME/Authentication_Dashboard.git
 
 Note: You need have MySQL Workbench installed in your local machine.
+---
+## 📌 Conclusion
+
+This project demonstrates how to build a **basic authentication system using Node.js and MySQL**. It provides a practical understanding of how **frontend forms interact with backend APIs and databases**.
+
+The project serves as a **foundation for building more advanced authentication systems**, which can later include features such as **password hashing, session management, JWT authentication, and user dashboards**.
+
 ---
 ## 📄 License
 
