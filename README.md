@@ -113,7 +113,8 @@ ProjectAuth
 ├── dashboard.html
 ├── login.html
 ├── signup.html
-└── style.css```
+└── style.css
+```
 
 ---
 
