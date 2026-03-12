@@ -121,7 +121,7 @@ ProjectAuth
 
 ### Fork the Repository
 
-Click the **Fork** button on the top right of this repository to create a copy in your GitHub account.
+Click the **Fork** button on the top right of this repository to create a copy in your GitHub account. (OR)
 
 Then clone the repository:
 
