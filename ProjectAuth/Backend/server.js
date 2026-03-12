@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, "../Frontend")));
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "EiffeLtower1234#",
+    password: "/*replace with your Password*/",
     database: "auth_project"
 });
 
@@ -85,4 +85,5 @@ app.post("/login", (req, res) => {
 // Start server
 app.listen(3000, () => {
     console.log("Server running on http://localhost:3000");
+
 });
