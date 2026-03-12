@@ -100,3 +100,19 @@ Separate **Frontend and Backend folders** for better project organization.
 ---
 
 ## 📁 Project Structure
+
+```
+ProjectAuth
+│
+├── Backend
+│ ├── server.js
+│ ├── package.json
+│ └── node_modules
+│
+└── Frontend
+├── dashboard.html
+├── login.html
+├── signup.html
+└── style.css```
+
+---
