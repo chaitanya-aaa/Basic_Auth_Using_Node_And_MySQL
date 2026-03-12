@@ -29,7 +29,7 @@ db.connect((err) => {
 
 // Backend check
 app.get("/", (req, res) => {
-    res.send("Backend running successfully 🚀");
+    res.send("Backend running successfully");
 });
 
 
@@ -66,10 +66,10 @@ app.post("/login", (req, res) => {
     db.query(sql, [email, password], (err, result) => {
 
         // if (result.length > 0) {
-        //     // res.send("Login Successful ✅");
+        //     // res.send("Login Successful");
         //     res.redirect("/dashboard.html");
         // } else {
-        //     res.send("Invalid Email or Password ❌");
+        //     res.send("Invalid Email or Password");
         // }
         if (result.length > 0) {
             res.redirect("/dashboard.html");
@@ -87,3 +87,4 @@ app.listen(3000, () => {
     console.log("Server running on http://localhost:3000");
 
 });
+
