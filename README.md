@@ -229,6 +229,8 @@ nodemon server.js
 Download MySQL Workbench from:  
 [Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
+[Youtube Tutorial](https://youtu.be/tHqVobAOyfM?si=Fx8kcLqUF_2IaXow)
+
 ---
 
 ### 7️⃣ Create Database
