@@ -61,6 +61,10 @@ Displays **invalid email or password messages** when login credentials are incor
 Separate **Frontend and Backend folders** for better project organization.
 
 ---
+📄 **Database Schema:**  
+[Click here to view the DB Schema](ProjectAuth/Auth.sql) 
+
+---
 
 ## 🧰 Tools & Technologies Used
 
