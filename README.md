@@ -128,10 +128,12 @@ Then clone the repository:
 ```bash
 git clone https://github.com/YOUR-USERNAME/Authentication_Dashboard.git
 
-Note: You need have MySQL Workbench installed in your local machine.
 ```
-Note: You need have MySQL Workbench installed in your local machine.
 ---
+Note: You need have MySQL Workbench installed in your local machine.
+
+---
+
 ## 📄 License
 
 This project is created for **learning and educational purposes** to demonstrate authentication systems using **Node.js, Express, and MySQL**.
